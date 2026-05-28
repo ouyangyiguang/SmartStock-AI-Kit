@@ -1,0 +1,5 @@
+
+pio run -e esp32s3_n16r8 --target uploadfs
+
+编译股票版： pio run -e esp32s3_n16r8 -t upload
+

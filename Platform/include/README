@@ -1,0 +1,8 @@
+上传文件：
+MAC下目录：/Users/yiguangouyang/Library/Arduino15/
+
+
+pio run --target uploadfs #上传到DATA目录
+pio run -t upload  # 编译并上传
+
+esptool.py -p /dev/cu.usbserial-240 flash_id #大小
